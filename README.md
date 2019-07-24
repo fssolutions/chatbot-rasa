@@ -21,7 +21,7 @@ rasa shell
 
 
 ### Permitindo que as actions funcione
-Para utilizar as actions personalizadas como o exemplo de idade do bot, é necessario rodar o endpoint. Para isso rode em um terminal a parte o comando
+Para utilizar as actions personalizadas como o exemplo da idade do bot, é necessário rodar o endpoint. Para isso rode em um terminal separado, ou em background o comando
 ```
 rasa run actions
 ```
