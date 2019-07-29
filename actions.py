@@ -36,7 +36,7 @@ class ActionHowOldYouAre(Action):
             tracker: Tracker,
             domain: Dict[Text, Any]) -> List[Dict[Text, Any]]:
 
-        dispatcher.utter_message('Tenho {} de vida'.format(self.__years_old()))
+        dispatcher.utter_message('Tenho {} de vida, e subindo'.format(self.__years_old()))
 
         return []
     

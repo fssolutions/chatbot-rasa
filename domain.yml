@@ -48,7 +48,7 @@ templates:
     - text: "Eu sou um bot, não tenho emoções nem sentimentos. Minha mente é implementada pelo Rasa (https://rasa.com/) uma ferramenta open-source."
 
   utter_why_you_are_created:
-    - text: "Fui criado por Flávio, para servir de exemplo para pesquisas, exemplos, dentre todas as outras coisas que você desejar."
+    - text: "Fui criado por Flávio, para servir de exemplo para pesquisas, especulações, dentre todas as outras coisas que você desejar."
 
   utter_who_you_are_do:
     - text: "Atualmente só respondo a simples perguntas... Mas você pode contribuir para que eu responda bem mais coisas."
