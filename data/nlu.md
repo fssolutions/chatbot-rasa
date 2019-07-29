@@ -2,6 +2,7 @@
 - ola
 - bom dia
 - oi
+- oii
 - boa noite
 - boa tarde
 - tudo bem
@@ -88,7 +89,7 @@
 - por que [você](robot) foi criado?
 - por quem [você](robot) foi criado?
 - quem é criou [você](robot)?
-- que te deu vida?
+- quem te deu vida?
 
 ## intent:what_is_life
 - e o que é vida?
@@ -132,6 +133,9 @@
 - como posso te chamar?
 - [você](robot) tem nome?
 - quem é [você](robot)
+
+## intent:start
+- start
 
 ## synonym:robot
  - vc

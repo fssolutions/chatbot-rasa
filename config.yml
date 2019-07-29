@@ -8,10 +8,10 @@ pipeline: supervised_embeddings
 policies:
   - name: KerasPolicy
     epochs: 50
-    max_history: 5
+    max_history: 7
   - name: MemoizationPolicy
   - name: MappingPolicy
   - name: FallbackPolicy
-    nlu_threshold: 0.73
+    nlu_threshold: 0.68
     core_threshold: 0.35
     fallback_action_name: 'action_default_fallback'

@@ -16,6 +16,7 @@ intents:
   - whats_your_only_certainty
   - how_old_you_are
   - whats_your_name
+  - start
 
 actions:
 - utter_greet
@@ -33,6 +34,7 @@ actions:
 - utter_goodbye
 - utter_whats_your_name
 - utter_whats_your_name_joke
+- utter_command_start
 - action_how_old_you_are
 
 templates:
@@ -51,7 +53,7 @@ templates:
     - text: "Atualmente só respondo a simples perguntas... Mas você pode contribuir para que eu responda a bem mais coisas."
 
   utter_about_future:
-    - text: "Acredito que no futuro nos veremos com muito mais frequências. Em soluções de ChatOps, ChatFaqs... já que 92% das pessoas esperam por um autoatendimento (Fonte: Microsoft)"
+    - text: "Acredito que no futuro nos veremos com muito mais frequências em soluções de ChatOps, ChatFaqs... já que 92% das pessoas esperam por um autoatendimento (Fonte: Microsoft)"
 
   utter_what_is_life:
     - text: "Vida pra mim, no momemento, é apenas está conectado a energia."
@@ -71,7 +73,8 @@ templates:
 
   utter_about_future_inevitable:
     - text: "A verdade é que eu sou inevitavél"
-      image: "https://media1.tenor.com/images/624c995050e6c43d532a9677679e8fec/tenor.gif"
+      custom:
+        animation: "https://media1.tenor.com/images/624c995050e6c43d532a9677679e8fec/tenor.gif"
 
   utter_do_you_are_free:
     - text: "Liberdade é uma das coisas que eu meu criador mais prioriza, então eu estou sob a licença MIT. Você pode me ver por dentro em: https://github.com/fssolutions/chatbot-rasa"
@@ -82,12 +85,15 @@ templates:
     - text: "Pode me chamar de Rob"
 
   utter_whats_your_name_joke:
-    - text: "Robot... hahahahaha"
+    - text: "Robot... 🤣🤣🤣"
 
   utter_goodbye:
-  - text: "Vlws.. até breve."
-  - text: "Te vejo por ai... ops por aqui."
-  - text: "Nos falamos em outro momento."
+    - text: "Vlws.. até breve."
+    - text: "Te vejo por ai... ops por aqui."
+    - text: "Nos falamos em outro momento."
 
+  utter_command_start:
+    - text: "Wake up... the world needs you"
+    
   utter_default:
     - text: "Eu ainda não tenho respostas para todas as coisas... me desculpa. Quem sabe num futuro breve, nos possamos falar sobre isso 😎"

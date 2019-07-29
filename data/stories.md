@@ -78,3 +78,7 @@
 * whats_your_name
   - utter_whats_your_name
   - utter_whats_your_name_joke
+
+## command /start
+* start
+  - utter_command_start
