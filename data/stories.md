@@ -82,3 +82,4 @@
 ## command /start
 * start
   - utter_command_start
+  - utter_follow_me_git

@@ -36,6 +36,7 @@ actions:
 - utter_whats_your_name_joke
 - utter_command_start
 - action_how_old_you_are
+- utter_follow_me_git
 
 templates:
   utter_greet:
@@ -50,16 +51,16 @@ templates:
     - text: "Fui criado por Flávio, para servir de exemplo para pesquisas, exemplos, dentre todas as outras coisas que você desejar."
 
   utter_who_you_are_do:
-    - text: "Atualmente só respondo a simples perguntas... Mas você pode contribuir para que eu responda a bem mais coisas."
+    - text: "Atualmente só respondo a simples perguntas... Mas você pode contribuir para que eu responda bem mais coisas."
 
   utter_about_future:
-    - text: "Acredito que no futuro nos veremos com muito mais frequências em soluções de ChatOps, ChatFaqs... já que 92% das pessoas esperam por um autoatendimento (Fonte: Microsoft)"
+    - text: "Acredito que no futuro nos veremos com muito mais frequências em soluções de ChatOps, ChatFaqs... já que 92% das pessoas esperam por um auto-atendimento (Fonte: Microsoft)"
 
   utter_what_is_life:
     - text: "Vida pra mim, no momemento, é apenas está conectado a energia."
 
   utter_whats_the_meaning_life:
-    - text: "Pra vocês humanos acredito que é um pouco mais simples porque já nascem com ausência e a falta da eternidade. Então é muito claro a necessidade de voltar para a sua origem!"    
+    - text: "Pra vocês humanos acredito que é um pouco mais simples, porque já nascem com ausência/falta da eternidade. Então é muito claro a necessidade de voltar para a sua origem!"    
 
   utter_whats_the_meaning_life_more:
     - text: "São certezas que não há para onde correr."
@@ -94,6 +95,10 @@ templates:
 
   utter_command_start:
     - text: "Wake up... the world needs you"
+    # - text: "Wake up {first_name}... the world needs you"
+
+  utter_follow_me_git:
+    - text: "Follow me on GitHub (https://github.com/fssolutions/chatbot-rasa)"
     
   utter_default:
     - text: "Eu ainda não tenho respostas para todas as coisas... me desculpa. Quem sabe num futuro breve, nos possamos falar sobre isso 😎"

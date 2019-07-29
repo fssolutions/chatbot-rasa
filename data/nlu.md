@@ -67,7 +67,7 @@
 - e como funciona
 - me fala mais
 - me conta mais
-- é serio?
+- é sério?
 - ta zuando?
 
 ## intent:who_you_are
