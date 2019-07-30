@@ -5,7 +5,7 @@
 - oii
 - boa noite
 - boa tarde
-- tudo bem
+- tudo bem?
 - oi, tudo bem
 - como vai
 - oi, como vai [você](robot)

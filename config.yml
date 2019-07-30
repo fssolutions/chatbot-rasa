@@ -2,12 +2,13 @@
 # https://rasa.com/docs/rasa/nlu/components/
 language: pt
 pipeline: supervised_embeddings
+# pipeline: pretrained_embeddings_spacy
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
 policies:
   - name: KerasPolicy
-    epochs: 50
+    # epochs: 50
     max_history: 7
   - name: MemoizationPolicy
   - name: MappingPolicy
