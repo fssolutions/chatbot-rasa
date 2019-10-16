@@ -1,3 +1,13 @@
+entities:
+  - feedback_value
+
+slots:
+  feedback_value:
+    type: categorical
+    values:
+      - "yes"
+      - "no"
+
 intents:
   - greet
   - goodbye
@@ -17,6 +27,7 @@ intents:
   - how_old_you_are
   - whats_your_name
   - start
+  - feedback
 
 actions:
 - utter_greet
@@ -35,6 +46,7 @@ actions:
 - utter_whats_your_name
 - utter_whats_your_name_joke
 - utter_command_start
+- utter_command_restart
 - action_how_old_you_are
 - utter_follow_me_git
 
@@ -94,8 +106,20 @@ templates:
     - text: "Nos falamos em outro momento."
 
   utter_command_start:
-    - text: "Wake up... the world needs you"
+    - text: | 
+        Wake up... the world needs you 
+        Você deseja ver onde meu código fonte se encontra?
     # - text: "Wake up {first_name}... the world needs you"
+      buttons:
+      - title: "👍 Sim"
+        payload: /feedback{"feedback_value":"yes"}
+      - title: "👎 Não"
+        payload: /feedback{"feedback_value":"no"}
+
+  utter_command_restart:
+    - text: |
+        😞
+        Como posso te ajudar?
 
   utter_follow_me_git:
     - text: "Follow me on GitHub (https://github.com/fssolutions/chatbot-rasa)"

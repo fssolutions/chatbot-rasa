@@ -8,10 +8,10 @@
 - tudo bem?
 - oi, tudo bem
 - como vai
-- oi, como vai [você](robot)
+- oi, como vai [você](robot:you)
 - como vao as coisas
 - com licenca
-- posso falar com [você](robot)
+- posso falar com [você](robot:you)
 - olá
 - oie
 - oiee
@@ -43,6 +43,8 @@
 - jamais
 - claro que não
 - lógico que não
+- deixa pra lá
+- deixa quieto
 
 
 ## intent:mood_great
@@ -56,7 +58,7 @@
 - bem
 - joinha
 - sim
-- sim e com [você](robot)?
+- sim e com [você](robot:you)?
 
 ## intent:tell_me_more
 - como funciona
@@ -71,34 +73,37 @@
 - ta zuando?
 
 ## intent:who_you_are
-- quem é [você](robot)?
+- quem é [você](robot:you)?
 - posso te conhecer?
-- quem [você](robot) pensa que é?
-- o que [você](robot) pode fazer?
-- me fale sobre [você](robot)?
-- fala um pouco sobre [você](robot)?
+- quem [você](robot:you) pensa que é?
+- o que [você](robot:you) pode fazer?
+- me fale sobre [você](robot:you)?
+- fala um pouco sobre [você](robot:you)?
 - qual a boa?
 
 ## intent:about_future
-- o que [você](robot) imagina para o futuro?
-- [você](robot) vai dominiar o mundo?
-- [você](robot) vai acabar com a raça humana?
-- [você](robot) vai destruir os humanos?
+- o que [você](robot:you) imagina para o futuro?
+- [você](robot:you) vai dominiar o mundo?
+- [você](robot:you) vai acabar com a raça humana?
+- [você](robot:you) vai destruir os humanos?
 
 ## intent:why_you_are_created
-- por que [você](robot) foi criado?
-- por quem [você](robot) foi criado?
-- quem é criou [você](robot)?
+- por que [você](robot:you) foi criado?
+- por quem [você](robot:you) foi criado?
+- quem é criou [você](robot:you)?
 - quem te deu vida?
 
 ## intent:what_is_life
 - e o que é vida?
 - vida?
-- [você](robot) sabe lá o que é isso?
-- [você](robot) sabe o que é vida?
+- [você](robot:you) sabe lá o que é isso?
+- [você](robot:you) sabe o que é vida?
 
 ## intent:who_i_can_help_you
 - me ajuda?
+- o que [você](robot:you) sabe fazer
+- o que [você](robot:you) pode fazer
+- o que [você](robot:you) faz
 
 ## intent:thanks
 - obrigado
@@ -107,10 +112,10 @@
 - legal. Vlws
 
 ## intent:do_you_are_free
-- [você](robot) é livre?
+- [você](robot:you) é livre?
 - onde encontro o seu código?
-- [você](robot) é aberto?
-- [você](robot) é open-source?
+- [você](robot:you) é aberto?
+- [você](robot:you) é open-source?
 
 ## intent:whats_the_meaning_life
 - qual o sentido da vida?
@@ -124,20 +129,21 @@
 ## intent:how_old_you_are
 - quantos anos você tem?
 - qual a sua idade?
-- [você](robot) é velho?
-- quando [você](robot) nasceu?
+- [você](robot:you) é velho?
+- quando [você](robot:you) nasceu?
 
 ## intent:whats_your_name
-- como [você](robot) se chama?
+- como [você](robot:you) se chama?
 - qual o seu nome?
 - como posso te chamar?
-- [você](robot) tem nome?
-- quem é [você](robot)
+- [você](robot:you) tem nome?
+- quem é [você](robot:you)
 
 ## intent:start
 - start
+- /start
 
-## synonym:robot
+## synonym:you
  - vc
  - voc
  - voce

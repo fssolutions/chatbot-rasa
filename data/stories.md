@@ -82,4 +82,15 @@
 ## command /start
 * start
   - utter_command_start
+* feedback{"feedback_value": "yes"} 
+  - slot{"feedback_value": "yes"}
   - utter_follow_me_git
+  - utter_who_i_can_help_you
+
+## command /start
+* start
+  - utter_command_start
+* feedback{"feedback_value": "no"} 
+  - slot{"feedback_value": "no"}
+  - utter_command_restart
+  - utter_who_i_can_help_you

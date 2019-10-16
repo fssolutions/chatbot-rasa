@@ -1,8 +1,17 @@
 # Configuration for Rasa NLU.
 # https://rasa.com/docs/rasa/nlu/components/
 language: pt
-pipeline: supervised_embeddings
+# pipeline: supervised_embeddings
 # pipeline: pretrained_embeddings_spacy
+
+pipeline:
+- name: "WhitespaceTokenizer"
+- name: "RegexFeaturizer"
+- name: "CRFEntityExtractor"
+- name: "EntitySynonymMapper"
+- name: "CountVectorsFeaturizer"
+  strip_accents: ascii
+- name: "EmbeddingIntentClassifier"
 
 # Configuration for Rasa Core.
 # https://rasa.com/docs/rasa/core/policies/
